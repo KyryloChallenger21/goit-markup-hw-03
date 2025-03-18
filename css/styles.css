@@ -267,7 +267,7 @@ button {
 }
 
 .appcategory {
-    
+
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
@@ -290,8 +290,10 @@ border-top: none;
 }
 
 .footer-logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
+    margin-bottom: 16px;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
