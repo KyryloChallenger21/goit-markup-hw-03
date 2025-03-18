@@ -207,6 +207,9 @@ button {
 .features-list {
     width: calc((100% - 72px) / 4);
 }
+.worker {
+    padding: 32px 0;
+}
 .team {
     display: flex;
     gap: 24px;
@@ -221,6 +224,7 @@ button {
 }
 
 .team-subtitle {
+    
     text-align: center;
     margin-top: 32px;
     margin-bottom: 8px;
