@@ -75,8 +75,10 @@ ul {
 }
 .visually-hidden {
     visibility: hidden;
+    overflow: hidden;
     pointer-events: none;
     position: absolute;
+    white-space: nowrap;
 
 }
 .title-section {
