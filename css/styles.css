@@ -131,7 +131,18 @@ ul {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .button {
     padding: 16px 32px;
     min-width: 169px;
@@ -175,6 +186,7 @@ button {
 
 .section-title {
 
+    margin-bottom: 8px;
     padding-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
@@ -192,7 +204,9 @@ button {
     text-transform: capitalize;
     color: #2E2F42;
 }
-
+.features-list {
+    width: calc((100% - 72px) / 4);
+}
 .team {
     display: flex;
     gap: 24px;
