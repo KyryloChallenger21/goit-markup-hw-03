@@ -73,14 +73,7 @@ a {
 ul {
     list-style: none;
 }
-.visually-hidden {
-    visibility: hidden;
-    overflow: hidden;
-    pointer-events: none;
-    position: absolute;
-    white-space: nowrap;
 
-}
 .title-section {
     background-color: #2E2F42;
     padding: 188px 0;
