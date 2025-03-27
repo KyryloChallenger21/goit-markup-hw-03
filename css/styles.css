@@ -58,6 +58,7 @@ nav {
 
 
 .test {
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,8 +68,11 @@ nav {
 
 
 body {
+margin: 0 auto;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+  max-width: 1440px;
+  
     font-style: normal;
     font-size: 16px;
     letter-spacing: 2%;
@@ -174,8 +178,24 @@ button {
 }
 
 .title-section {
+    
     background-color: #2E2F42;
     padding: 188px 0;
+}
+
+.hero {
+        min-height: 1.07;
+        padding: ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/heroimg.jpg);
+    color: #fff;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
 }
 
 .section {
