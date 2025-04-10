@@ -28,13 +28,11 @@ img {
 
 .container-header {
     display: flex;
-    height: 72px;
-
+    align-items: center;
 }
 
 nav {
     display: flex;
-    gap: 76px;
     align-items: center;
 }
 
@@ -52,8 +50,7 @@ nav {
 
 .address {
     margin-left: auto;
-    display: flex;
-    align-items: center;
+    font-style: normal;
 }
 
 
@@ -95,6 +92,7 @@ ul {
 
 .header-link {
     padding: 24px 0;
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -107,11 +105,8 @@ ul {
     color: #404BBF;
 }
 
-.address {
-    font-style: normal;
-}
-
 .address-link {
+    padding: 24px;
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
@@ -183,20 +178,6 @@ button {
     padding: 188px 0;
 }
 
-.hero {
-        min-height: 1.07;
-        padding: ;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-    background-image: linear-gradient(to bottom,
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)), url(../images/heroimg.jpg);
-    color: #fff;
-        text-align: center;
-        background-position: center;
-        background-repeat: no-repeat;
-}
 
 .section {
 
@@ -207,7 +188,6 @@ button {
 .section-title {
 
     margin-bottom: 8px;
-    padding-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -241,19 +221,28 @@ button {
     border-radius: 0px 0px 4px 4px;
     background: #fff;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 .team-subtitle {
-    
+    font-family: 'Roboto' ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
     text-align: center;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
 .team-text {
     text-align: center;
-    margin-bottom: 32px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
 }
 
 .section-text {
@@ -271,19 +260,26 @@ button {
 }
 
 .portfolio-text {
-    padding-left: 16px;
-    margin-top: 32px;
     margin-bottom: 8px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 2%;
 }
 
 .portfolio-bottom-text {
-    padding-left: 16px;
-    margin-bottom: 32px;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
 }
 
 .imgs-portf {
     width: calc((100% - 48px) / 3);
-    border: 1px solid rgba(231, 233, 252, 1);
 }
 
 .appcategory {
@@ -338,7 +334,7 @@ border-top: none;
 }
 
 .footer-text {
-    margin-top: 16px;
+    
 }
 
 .footer-text {
